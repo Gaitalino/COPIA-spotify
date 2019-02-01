@@ -1,0 +1,292 @@
+
+/*Página*/
+html, body{
+	height: 100%;
+	min-width: 300px;
+	overflow-x: hidden; 
+	
+}
+
+body{
+	background:	url('../img/capa.png') fixed,
+				url('../img/ruido.png') fixed,
+				linear-gradient(50deg, #ff4169, #7c26f8);
+				background-attachment: fixed;
+				font-family: Helvética, sans-serif;
+}
+
+/*Cabeçalho*/
+header{
+	background: rgba(0,0,0,0.6);
+}
+
+/*Principal*/
+#principal{
+	color: white;
+}
+#principal button{
+	border-radius: 500px;
+	text-transform: uppercase;
+	color: white;	
+}
+#principal button:hover{
+	background-color: grey!important;
+}
+
+/*Conteudos*/
+#conteudos{
+	background-color: white;
+	width: 100%!important;
+}
+#conteudos h2, #conteudos h3,{
+	color: rgba(162, 73, 255, 0.6);
+}
+
+
+/*Saiba-Mais*/
+#saiba-mais h2{
+	color: rgba(255, 255, 255, 1);
+	font-weight: bold;
+}
+#saiba-mais h3{
+	color: rgba(102, 4, 255, 0.6);
+	font-weight: bold;
+}
+#saiba-mais p{
+	color: white;
+}
+.rotaciona-img {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+
+
+/*Rodape*/
+footer{
+	background-color: rgba(0,0,0,1);
+	position: relative;
+	padding: 50px 0 50px 0;
+}
+
+#redes-sociais {
+	border-radius: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menor que 575px*/
+@media (max-width: 575px) { 
+	#principal h2{
+		font-size: 2.5em;
+	}
+	#principal button{
+		font-size: 0.6em;
+	}
+
+
+	#informacoes h2{
+		font-size: 1.3em!important;
+		padding-bottom: 10px;
+	}
+	#informacoes h3{
+		font-size: 1em!important;
+	}
+	#informacoes p{
+		font-size: 0.8em!important;
+	}
+
+
+	#saiba-mais h2{
+	font-size: 1.5em;
+	}
+	#saiba-mais h3{
+		font-size: 1em;
+	}
+
+	footer img{
+		margin-bottom: 30px;
+	}
+	footer h4{
+		margin-bottom: 20px;
+	}
+	footer ul{
+		padding-bottom: 30px!important;
+	}
+
+}
+
+
+/* maior que 576px*/
+@media (min-width: 576px) { 
+	#principal h2{
+		font-size: 3.7em;
+	}
+	#principal button{
+		font-size: 0.8em;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		width: 28px;
+		height: 28px;
+	}
+
+	#informacoes h2{
+		font-size: 1.5em!important;
+		padding-bottom: 10px;
+	}
+	#informacoes h3{
+		font-size: 1.3em!important;
+	}
+	#informacoes p{
+		font-size: 1.1em!important;
+	}
+
+	#saiba-mais h2{
+	font-size: 1.7em;
+	}
+	#saiba-mais h3{
+		font-size: 1.2em;
+	}
+
+	footer img{
+		margin-bottom: 30px;
+	}
+	footer h4{
+		margin-bottom: 20px;
+	}
+	footer ul{
+		padding-bottom: 30px!important;
+	}
+	#navegacao a{
+		font-size: 1.1em;
+	}
+
+}
+
+
+/* Maior que 768px*/
+@media (min-width: 768px) { 
+	#principal h2{
+		font-size: 5em!important;
+	}
+	#principal button{
+		font-size: 1em!important;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		width: 30px;
+		height: 30px;
+	}
+
+	#saiba-mais h2{
+	font-size: 1.9em!important;
+	}
+	#saiba-mais h3{
+		font-size: 1.4em!important;
+	}
+	#saiba-mais p{
+		font-size: 1em!important;
+	}
+	#navegacao a{
+		font-size: 1.1em;
+		padding-right: 10px;
+	}
+
+}
+
+
+/* Maior que 992px */
+@media (min-width: 992px) {
+		#principal h2{
+		font-size: 5.5em!important;
+	}
+	#principal button{
+		font-size: 1.1em!important;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		width: 32px;
+		height: 32px;
+	}
+
+
+	#informacoes h2{
+		font-size: 1.7em!important;
+		padding-bottom: 10px;
+	}
+	#informacoes h3{
+		font-size: 1.5em!important;
+	}
+	#informacoes p{
+		font-size: 1.3em!important;
+	}
+
+	#saiba-mais h2{
+	font-size: 2.1em!important;
+	}
+	#saiba-mais h3{
+		font-size: 1.6em!important;
+	}
+	#saiba-mais p{
+		font-size: 1.3em!important;
+	}
+	#navegacao a{
+		font-size: 1.3em;
+		padding-right: 15px;
+	}
+
+}
+
+
+/* Maior que 1200px*/
+@media (min-width: 1200px) { 
+
+		#principal h2{
+		font-size: 6.5em;
+	}
+	#principal button{
+		font-size: 1.3em;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		width: 35px;
+		height: 35px;
+	}
+
+
+	#informacoes h2, #saiba-mais h2{
+		font-size: 2em!important;
+		padding-bottom: 10px;
+	}
+	#informacoes h3{
+		font-size: 1.7em!important;
+	}
+	#informacoes p{
+		font-size: 1.5em!important;
+	}
+
+
+	#saiba-mais h2{
+	font-size: 2.3em!important;
+	}
+	#saiba-mais h3{
+		font-size: 2em!important;
+	}
+	#saiba-mais p{
+		font-size: 1.5em!important;
+	}
+
+	#navegacao a{
+		font-size: 1.6em;
+		padding-right: 20px;
+	}
+ }
